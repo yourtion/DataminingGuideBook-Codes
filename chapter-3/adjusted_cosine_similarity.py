@@ -30,7 +30,7 @@ def computeSimilarity(band1, band2, userRatings):
             dem2 += (ratings[band2] - avg) ** 2
     return num / (sqrt(dem1) * sqrt(dem2))
 
-print computeSimilarity('Kacey Musgraves', 'Lorde', users3)
-print computeSimilarity('Imagine Dragons', 'Lorde', users3)
-print computeSimilarity('Daft Punk', 'Lorde', users3)
+print(computeSimilarity('Kacey Musgraves', 'Lorde', users3))
+print(computeSimilarity('Imagine Dragons', 'Lorde', users3))
+print(computeSimilarity('Daft Punk', 'Lorde', users3))
 
